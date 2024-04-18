@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #111111;
+  overflow: hidden;
+  list-style-type: none;
+  position: fixed;
+  width: 100vw; /* Change to vw unit to make it full width */
+  top: 0;
+  left: 0; /* Set left to 0 to align with the left edge */
+  z-index: 1000;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: gold;
+  text-align: left;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar img {
+  height: 61px;
+  width: 61px;
+  padding: 0px;
+  position: absolute;
+  top: 1px;
+  background-image: none;
+  background: transparent;
+}

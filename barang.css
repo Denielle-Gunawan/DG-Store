@@ -1,0 +1,32 @@
+body {
+  overflow-y: scroll; /* Enable vertical scrollbar */
+  background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+table {
+  background: -webkit-linear-gradient(to bottom, #0f3f75, #2f278a, #181829);
+  background: linear-gradient(to bottom, #0f3f75, #2f278a, #181829);
+  color: white;
+  position: relative; /* Change position to relative */
+  top: 39%; /* Adjust the margin from the top */
+  width: 90%;
+  left: 5%;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 7%;
+  left: 40%;
+}
+
+.tambah {
+  position: relative; /* Change position to relative */
+  margin-top: 10%; /* Add margin from the top */
+  left: 5%;
+}
+
+.aksi {
+  width: 9%;
+}
