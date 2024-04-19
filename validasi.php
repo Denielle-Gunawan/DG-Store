@@ -9,21 +9,21 @@ $sql = "SELECT * FROM user  WHERE username = '$username'";
 $query = mysqli_query($koneksi, $sql);
 $jumlah_user = mysqli_num_rows($query);
 
-if ($jumlah_user ==1) {
-    $user =mysqli_fetch_array($query);
+if ($jumlah_user == 1) {
+    $user = mysqli_fetch_array($query);
     $password_benar = password_verify($password, $user["password"]);
 
     if ($password_benar) {
         session_start();
 
-        $_SESSION["id"] =$user["id"];
+        $_SESSION["id"] = $user["id"];
         $_SESSION["username"] = $user["username"];
         $_SESSION["level"] = $user["level"];
 
         header("location: home.php");
     } else {
-        echo "Username atau password tidak valid";
+        echo "Username atau password tidak valid. <button onclick=\"history.go(-1);\">Kembali</button>";
     }
 } else {
-    echo "Username tidak ditemukan";
+    echo "Username tidak ditemukan. <button onclick=\"history.go(-1);\">Kembali</button>";
 }

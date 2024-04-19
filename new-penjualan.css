@@ -1,0 +1,23 @@
+body {
+  background-color: #136a8a;
+}
+
+table {
+  color: black;
+  background: linear-gradient(to right, #75bd24, #136a8a);
+  margin: auto;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2), 0px 10px 20px rgba(0, 0, 0, 0.3), 0px 30px 60px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  padding: 35px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  height: 40%;
+  width: 26%;
+}
+
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 39%;
+}

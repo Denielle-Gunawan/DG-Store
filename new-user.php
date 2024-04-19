@@ -3,6 +3,9 @@
 
 <head>
     <title>New User</title>
+    <link rel="stylesheet" href="new-user.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -18,7 +21,7 @@
     <div>
         <form action="create-user.php" method="POST">
             <h1>Tambah User</h1>
-            <table>
+            <table border="1px">
                 <tr>
                     <td>Username</td>
                     <td><input type="text" name="username"></td>
@@ -39,8 +42,8 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <button type="submit">SIMPAN</button>
-                        <button type="reset">RESET</button>
+                        <button type="submit" class="submit">SIMPAN</button>
+                        <button type="reset" class="reset">RESET</button>
                     </td>
                 </tr>
             </table>

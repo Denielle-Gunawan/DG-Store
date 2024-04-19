@@ -3,6 +3,7 @@
 
 <head>
     <title>New Pelanggan</title>
+    <link rel="stylesheet" href="new-pelanggan.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <div>
         <form action="create-pelanggan.php" method="POST">
             <h1>Tambah Pelanggan</h1>
-            <table>
+            <table border="1px">
                 <tr>
                     <td>nama</td>
                     <td><input type="text" name="nama"></td>

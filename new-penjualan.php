@@ -3,6 +3,7 @@
 
 <head>
     <title>New Penjualan</title>
+    <link rel="stylesheet" href="new-penjualan.css">
 </head>
 
 <body>
@@ -30,7 +31,7 @@
     <div>
         <form action="create-penjualan.php" method="POST">
             <h1>Tambah Penjualan</h1>
-            <table>
+            <table border="1px">
                 <tr>
                     <td>Barang</td>
                     <td>

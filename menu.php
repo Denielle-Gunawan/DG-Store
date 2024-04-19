@@ -20,7 +20,6 @@
             <li><a href="logout.php">Log out</a></li>
             <li><a href="profil.php">Profil</a></li>
             <li><a href="pelanggan.php">Pelanggan</a></li>
-            <li><a href="pembelian.php">Pembelian</a></li>
             <li><a href="penjualan.php">Penjualan</a></li>
             <li><a href="barang.php">Barang</a></li>
             <?php if ($_SESSION["level"] == "admin") : ?>
